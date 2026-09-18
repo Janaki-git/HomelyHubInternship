@@ -7,7 +7,8 @@ export default defineConfig({
   server: {
     proxy:{
       '/api':{
-        target: 'http://localhost:8080',
+        target: 'https://homelyhubinternship.onrender.com',
+        //backend srever deployed link 
         changeOrigin: true,
         secure: false,
       }
